@@ -1,7 +1,7 @@
 # Radovi na putu
 
 Ova aplikacija postavlja markere na mestima u Srbiji na kojima se održavaju radovi, i na kojima se nalaze zabrane, obustave ili klizišta.
-Postoje četiri tipa markera za dešavanja na putu, od kojih svako ima određenu boju. Markeri se mogu filtrirati prema svom tipu, ili opisu koji sadrže.
+Postoje četiri tipa markera za dešavanja na putu, od kojih svaki ima određenu boju. Markeri se mogu filtrirati prema svom tipu, ili opisu koji sadrže.
 
 ## Opis
 
