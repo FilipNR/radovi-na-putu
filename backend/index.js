@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const schedule = require('node-schedule')
 const { Scrape } = require('./parse')
 const port = 8080
 const cors = require('cors')
@@ -16,6 +17,7 @@ app.listen(port, () => {
     console.log(`Listening on port: ${port}`)
 })
 
-setInterval(() => {
+// Scrape data every 2 hours
+schedule.scheduleJob('* */2 * * *', () => {
     Scrape()
-}, 7200000) // Two hours
+})
